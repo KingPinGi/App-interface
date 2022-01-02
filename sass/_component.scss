@@ -1,0 +1,40 @@
+.logo{
+    height: 3.25rem;
+    margin-left: 3rem;
+}
+
+.search{
+    background-color: orangered;
+    flex: 0 0 40%;
+
+    &__input{
+        font-family: inherit;
+        font-size: inherit;
+        color: inherit;
+        border: none;
+        padding:.7rem 2rem;
+        border-radius: 100px;
+        width: 90%;
+        transition: all .2s;
+        &:focus{
+            width: 100%;
+            outline: none;
+            background-color: var(--color-grey-light-3);
+        }
+    }
+    &__icon{
+        height: 2rem;
+        width: 2rem;
+    }
+}
+.user-nav{
+    background-color: greenyellow;
+    &__icon{
+        height: 2.25rem;
+        border-radius: 2.25rem;
+    }
+    &__user-photo{
+        height: 3.75rem;
+        border-radius: 50%;
+    }
+}
